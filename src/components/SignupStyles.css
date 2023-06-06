@@ -1,0 +1,131 @@
+.container-signup {
+  height: auto;
+  width: 30%;
+  padding: 2rem 1rem;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 2rem;
+  color: #07001f;
+  text-transform: uppercase;
+}
+
+.signup-form input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #e4e4e4;
+}
+
+.signup-form {
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  background: none;
+}
+
+input:focus {
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.terms {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  padding: 0 10%;
+  text-align: left;
+}
+
+.terms #checkbox {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.terms label {
+  font-size: 0.85rem;
+}
+
+.terms a {
+  color: rgb(17, 107, 143);
+  text-decoration: none;
+}
+
+.member {
+  font-size: 0.85rem;
+  margin-top: 1.4rem;
+  color: #636363;
+}
+
+.member a {
+  color: rgb(17, 107, 143);
+  text-decoration: none;
+}
+
+.member a span {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.signup {
+  width: 80%;
+  margin-top: 35px;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .container-signup {
+    width: 90%;
+  }
+
+  .heading {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .signup {
+    width: 80%;
+    margin-top: 25px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signup-form {
+    width: 90%;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .recover {
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    margin: 0 10px;
+    font-size: 0.7rem;
+  }
+
+  .terms {
+    padding: 0 30px;
+  }
+}
